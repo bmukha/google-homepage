@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./style.css" />
     <title>Google</title>
   </head>
+
   <body>
     <nav>
       <div>
@@ -22,13 +23,26 @@
       </div>
     </nav>
     <main>
-      <div>
-        <img
+      <div id="logo_container">
+        <img id="logo"
           src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-          alt="Google logo"
-          srcset=""
-        />
+          alt="Google logo"><br>
+          <form>
+            <input id="searchbar" type="text">
+            <div id="buttons-container">
+              <input type="submit" class="buttons" value="Search">
+              <input type="submit" class="buttons" value="I'm lucky">
+            </div>
+          </form>
       </div>
     </main>
+    <footer>
+      <ul>
+        <li>Ads</li>
+        <li>For business</li>
+        <li>About Google</li>
+        <li>How it works</li>
+      </ul>
+    </footer>
   </body>
 </html>

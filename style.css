@@ -7,7 +7,6 @@
 }
 
 body {
-background-color: gray;
 min-width: 100vw;
 min-height: 100vh;
 display: flex;
@@ -16,7 +15,6 @@ flex-direction: column;
 
 nav {
     align-self: flex-end;
-    background-color: rgb(201, 228, 195);
     width: 275px;
     height: 30px;
     margin: 0;
@@ -27,8 +25,66 @@ nav {
 
 main {
     display: flex;
+    height: 100%;
+    width: 100%;
 }
 
 nav > div {
     align-self:center;
 }
+
+#logo_container {
+    margin-top: 250px;
+}
+
+#searchbar {
+    width: 500px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+#searchbar:hover {
+    box-shadow: 5px 5px 5px #888888;
+}
+
+#buttons-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.buttons {
+    height: 30px;
+    width: 120px;
+}
+
+footer {
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.2);
+    height: 35px;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    height: 100%;
+    margin: 10px 20px 5px 20px;
+    text-align: center;
+}
+  
